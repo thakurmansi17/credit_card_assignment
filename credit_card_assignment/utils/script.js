@@ -56,13 +56,3 @@ $(".input-cart-number").on("keyup change", function () {
     .on("keyup change", function () {
       $(".ccv div").html($(this).val());
     });
-  
-  /*--------------------
-    CodePen Tile Preview
-    --------------------*/
-    setTimeout(function(){
-      $('#card-ccv').focus().delay(1000).queue(function(){
-        $(this).blur().dequeue();
-      });
-    }, 500);
-  
